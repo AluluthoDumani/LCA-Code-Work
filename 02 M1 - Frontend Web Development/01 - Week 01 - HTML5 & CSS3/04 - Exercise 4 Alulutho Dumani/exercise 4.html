@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <!-- External Styling -->
+     <link rel="stylesheet" href="style.css">
+
+
+</head>
+<!-- This is where the form starts -->
+<body>
+    <!-- Form Heading -->
+    <h1>Forms</h1>
+    <!-- Creatin a form with First Name, last name, Gender, Date of birth and Email -->
+     <form action="https://formspree.io/f/xpwzpzrd" method="post">
+        <!-- Full Name -->
+        <label>Enter your name:</label>
+        <input type="text" name="First" placeholder="John">
+
+        <!-- Last Name -->
+        <label>Enter your last name:</label>
+        <input type="text" name="last_name" placeholder="Doe">
+
+        <!-- Email -->
+        <label>Enter your email address:</label>
+        <input type="email" name="email" placeholder="johndoe@email.com">
+
+        <!-- Gender -->
+         <label>Select Gender</label>
+         <select name="Gender">
+            <option value="Female" >Female</option>
+            <option value="Male">Male</option>
+        </select>
+
+        <!-- Date of birth -->
+         <label>Date of birth</label>
+         <input type="date" name="Date of birth" >
+
+        <!-- Submit button -->
+         <button type="submit">Submit</button>
+
+</form>
+
+<form action="http://httpbin.org/get" method="get">
+    <!-- Search Form -->
+     <lable>Search</lable>
+     <input type="search" name="Search">
+     <button type="submit">Submit</button>
+</form>
+
+    
+</body>
+</html>

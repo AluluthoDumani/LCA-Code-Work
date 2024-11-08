@@ -1,0 +1,30 @@
+<style>
+        body{
+            font-family: 'Franklin Gothic Medium' , sans-serif;
+        }
+        form{
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input, select{
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="radio"]{
+            display: inline;
+            width: 100px;
+        }
+        input[type="text"]{}
+        label[name="Rate_Content"],
+        .lecturer-label{
+            display: block;
+        }
+        #label-label{
+            display: block;
+            background-color: aqua;
+        }
+    </style>

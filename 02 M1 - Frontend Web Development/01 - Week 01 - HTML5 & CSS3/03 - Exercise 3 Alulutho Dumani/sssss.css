@@ -1,0 +1,20 @@
+able {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color:  b#2e6230;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #F2F2F2;
+}

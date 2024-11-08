@@ -1,0 +1,57 @@
+
+.navbar a:hover{
+    color: #3498DB;
+   height: 2px;
+   transform: scaleX(0);
+   transition: transform 0.3s ease;
+   transform-origin: bottom right;
+   text-decoration: underline;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    overflow: hidden;
+    top: 10px;
+    z-index: 10px;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+
+}
+
+.navbar li{
+    float: left;
+}
+
+
+.navbar a{
+    Color: #3498db
+
+
+}
+
+
+
+
+
+h2{
+    Color: #2c3e50
+    font: size 20px;
+}
+
+h1{
+    Color: #2c3e50
+    font-size: 20px
+}
+
+
+form{
+
+    border: 1px solid black;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
